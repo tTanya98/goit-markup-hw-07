@@ -167,7 +167,7 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.hero-title {
+.hero__title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -177,7 +177,7 @@ img {
   color: #ffffff;
   margin-bottom: 30px;
 }
-.hero-btn {
+.hero__btn {
   padding: 10px 32px;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -193,27 +193,27 @@ img {
   color: #ffffff;
   transition: var(--anim-fast);
 }
-.hero-btn:hover,
-.hero-btn:focus {
+.hero__btn:hover,
+.hero__btn:focus {
   background-color: #188ce8;
 }
 /* Section skills */
 .skills {
 }
-.skills-container {
+.skills__container {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
-.skills-list {
+.skills__list {
   display: flex;
   gap: 30px;
   padding-left: 0;
   padding-right: 0;
   margin: 0;
 }
-.skills-list-item {
+.skills__item {
   list-style-type: none;
   width: 270px;
 }
@@ -225,9 +225,7 @@ img {
   border-radius: 4px;
   height: 120px;
 }
-.skills-icon {
-}
-.skills-list-title {
+.skills__title {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -236,7 +234,7 @@ img {
   margin-top: 30px;
   margin-bottom: 10px;
 }
-.skills-list-text {
+.skills__text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -247,9 +245,9 @@ img {
 .work {
   padding-top: 0;
 }
-.work-title,
-.team-title,
-.customers-title {
+.work__title,
+.team__title,
+.customers__title {
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
@@ -257,7 +255,7 @@ img {
   text-align: center;
   margin-bottom: 50px;
 }
-.work-list {
+.work__list {
   display: flex;
   justify-content: space-between;
   gap: 30px;
@@ -265,7 +263,7 @@ img {
   padding-right: 0;
   margin: 0;
 }
-.work-list-item {
+.work__item {
   list-style-type: none;
   position: relative;
 }
@@ -299,10 +297,10 @@ img {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.team-title {
+.team__title {
   padding-top: 0;
 }
-.team-list {
+.team__list {
   display: flex;
   justify-content: space-between;
   gap: 30px;
@@ -310,7 +308,7 @@ img {
   padding-right: 0;
   margin: 0%;
 }
-.team-list-item {
+.team__item {
   list-style-type: none;
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -365,9 +363,7 @@ img {
 }
 
 /* Section customers */
-.customers {
-}
-.customers-list {
+.customers__list {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -376,7 +372,7 @@ img {
   padding-right: 0;
   margin: 0;
 }
-.customers-item {
+.customers__item {
   list-style-type: none;
   width: 170px;
 }
