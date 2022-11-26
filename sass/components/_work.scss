@@ -1,0 +1,32 @@
+.work {
+    padding-top: 0;
+  }
+  .work__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+  }
+  .work__item {
+    list-style-type: none;
+    position: relative;
+  }
+  .work-overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    background-color: rgba(47, 48, 58, 0.8);
+  }
+  .work-overlay__text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+  }

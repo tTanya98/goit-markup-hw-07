@@ -1,0 +1,31 @@
+.address {
+    margin-top: 20px;
+  }
+  .address__list {
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0px;
+  }
+  .address__item:not(:last-child) {
+    margin-bottom: 9px;
+  }
+  .address__item {
+    list-style-type: none;
+    text-decoration: none;
+  }
+  .address__street {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .address__contact {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+  }

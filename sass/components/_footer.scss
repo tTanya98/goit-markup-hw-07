@@ -1,0 +1,16 @@
+.footer {
+    background-color: #2f303a;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+  }
+  .footer__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
