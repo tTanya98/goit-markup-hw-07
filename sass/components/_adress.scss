@@ -1,18 +1,22 @@
 .address {
     margin-top: 20px;
-  }
-  .address__list {
+
+  &__list {
     padding-left: 0;
     padding-right: 0;
     margin: 0px;
   }
-  .address__item:not(:last-child) {
-    margin-bottom: 9px;
-  }
-  .address__item {
+
+  &__item {
     list-style-type: none;
     text-decoration: none;
   }
+
+  &__item:not(:last-child) {
+    margin-bottom: 9px;
+  }
+}
+  
   .address__street {
     font-style: normal;
     font-size: 14px;
@@ -21,6 +25,7 @@
     color: #ffffff;
     text-decoration: none;
   }
+  
   .address__contact {
     font-style: normal;
     font-size: 14px;

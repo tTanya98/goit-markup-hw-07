@@ -7,10 +7,12 @@
     letter-spacing: 0.03em;
     color: #2196f3;
     text-decoration: none;
-  }
-.logo--dark {
+
+  &--dark {
     color: black;
   }
-.logo--light {
+
+  &--light {
     color: #ffffff;
   }
+}

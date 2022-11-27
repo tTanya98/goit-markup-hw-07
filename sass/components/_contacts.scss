@@ -4,11 +4,13 @@
     padding-left: 0;
     margin-top: 0;
     margin-bottom: 0;
-  }
-  .contact__item {
+}
+
+.contact__item {
     list-style-type: none;
-  }
-  .contact__link {
+}
+
+.contact__link {
     display: flex;
     align-content: center;
     align-items: center;
@@ -20,13 +22,18 @@
     color: var(--primary-text-color);
     text-decoration: none;
     transition: var(--anim-fast);
+
+  &:hover,
+  &:focus{
+    color: #2196f3
   }
-  .contact__icon {
+}
+ 
+.contact__icon {
     fill: currentColor;
+
+  &:hover,
+  &:focus {
+    color: #2196f3
   }
-  .contact__link:hover,
-  .contact__link:focus,
-  .contact__icon:hover,
-  .contact__icon:focus {
-    color: #2196f3;
-  }
+}
