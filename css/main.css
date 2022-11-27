@@ -32,7 +32,7 @@ img {
   height: auto;
 }
 
-.container {
+.container, .header__container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -40,7 +40,7 @@ img {
   margin-right: auto;
 }
 
-.section {
+.section, .customers, .team, .work, .skills, .hero {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -76,7 +76,6 @@ img {
   padding-top: 24px;
   padding-bottom: 24px;
 }
-
 .header__container {
   display: -webkit-box;
   display: -ms-flexbox;
